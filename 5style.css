@@ -1,0 +1,144 @@
+body{
+    background-image: url(img/1472827238.jpg);
+    background-position:  center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+a{
+text-decoration: none;
+color: var(--second-color)
+
+
+}
+
+a:hover{
+text-decoration: underline;
+
+}
+
+.wrapper{
+width: 100%;
+display: flex;
+   justify-content: cwenter; 
+align-items: center;
+min-height: 100vh;
+background-color: rgb(0, 0, 0,0.2);
+}
+
+.login-box{
+position: relative;
+width: 450px;
+backdrop-filter: blur (25px);
+border: 1px solid var (--primary-color);
+padding: 7.5em 2.5em 4em 2.5em;
+color: var(--second-color);
+box-shadow: 0px 0px 10px 2xp rgba(0, gree0, blu0, 0.3);
+animation: scalep 2s ease 0s 1 normal forwards;
+}
+
+.login-header{
+font-size: 30px;
+font-weight: 300;
+color: #c49641;
+}
+
+.login-header::before{
+content: "";
+position: absolute;
+top: 0;
+left: -30px;
+width: 30px;
+border-top-right-radius: 50%;
+background: transparent;
+box-shadow: 15px 0 0 0 var (--primary-color);
+}
+
+.login-header::after{
+content: "";
+position: absolute;
+top: 0;
+right: -30px;
+width: 30px;
+height: 30px;
+border-left: 50%;
+background: transparent;
+box-shadow: -15px 0 0 0 var(--primary-color);
+}
+
+.input-field:valid ~ .label{
+position: absolute;
+top: -10px;
+left: 20px;
+font-size: 14px;
+background-color: var(--primary-color);
+border-radius: 30px;
+color: var(--black-color);
+padding: 0 10px;
+}
+
+.icon{
+position: absolute;
+top: 18px;
+right: 25px;
+font-size: 20px;
+animation: bouncedown 2s ease 0s 1 normal forwards;
+}
+
+.inbut-submit{
+
+font-size: 19px;
+font-weight: 500;
+border: none;
+border-radius: 30px;
+cursor: pointer;
+transition: 0.3;
+}
+
+.inbut-submit:hover{
+
+background: var(--second-color);
+color: var(--yelloow-color);
+
+}
+
+.register{
+
+text-align: center;
+
+}
+
+.register a, remember-forgot a{
+font-weight: 300px;
+color: var(--yelloow-color)
+
+}
+
+@media only screen and (max-width: 564px) {
+
+.wrapper {
+padding: 20px;
+}
+
+.login-box {
+padding: 7.5em 1.5em 4em 1.5em
+
+}
+
+}
+
+@keyframes scaLeUp{
+0%{
+
+transform: scale (0.7);
+}
+
+100%{
+transform: scale(1);
+}
+}
+
+
+
+

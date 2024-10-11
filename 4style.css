@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/ css2?family=poppins: wigth@300;400;500;600&&display=swap');
+
+*{
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: "poppins", sans-serif;
+
+
+
+}
+
+
+
+
+body{
+min-width: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #e3f2fd;
+    
+
+}
+
+.container{
+
+position: relative;
+background-image: url("img/pngtree-beautiful-night-background-clouds-image_1946444.jpg");
+background-size: cover;
+padding: 25px;
+border-radius: 28px;
+max-width: 380px;
+width: 100%;
+box-shadow: 0 5px 10px    rgb(0, 0, 0.1);
+
+}
+
+header,
+.logo{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+}
+
+
+
+img{
+width: 48px;
+
+
+
+}
+
+.header .chip{
+
+width: 60px;
+
+
+}
+
+h6{
+
+color: #fff;
+margin-top: 4px;
+font-size: 18px;
+letter-spacing: 1px;
+}
+
+ h5{
+
+color: #fff;
+margin: 4px;
+font: 18px;
+letter-spacing: 1px;
+
+}
+
+.container .card-details{
+margin-top: 40px;
+    display: flex ;
+justify-content: space-between;
+align-items: flex-end;
+}
+
+
+ 
+
+
+
+
+

@@ -1,0 +1,73 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 'Poppins', sans-serif;
+}
+
+html,body{
+display: grid;
+height: 100%;
+place-items: center;
+background: #0069d9; 
+}
+
+.wrapper{
+height: 100px;
+width: 400px;
+border-radius: 5px;
+background: #fff;
+display: flex;
+padding: 20px 15px;
+align-items: center;
+justify-content: space-evenly;
+}
+.wrapper .option{
+background-color: #fff;
+height: 100%;
+width: 100%;
+margin: 0 10px;
+border-radius: 5px;
+cursor: pointer;
+border: 2px solid lightgrey;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.wrapper .option .dot{
+height: 20px;
+width: 20px;
+background: #d9d9d9;
+border-radius: 50%;
+position: relative;
+}
+.wrapper .option .dot::before{
+position: absolute;
+content: "";
+left: 4px;
+top: 4px;
+height: 12px;
+width: 12px;
+background: #0069d9;
+border-radius: 50%;
+opacity: 0;
+
+}
+#option-1:checked ~ .option-1 .dot::before,
+#option-2:checked ~ .option-1 .dot::before{
+opacity: 0;
+
+
+}
+
+.wrapper .option span{
+color: #808080;
+font-size: 20px;
+
+}
+
+
+
+
+
+
